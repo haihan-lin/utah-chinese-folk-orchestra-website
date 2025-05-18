@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/utah-chinese-folk-orchestra-website/static/css/main.37ddbf14.css",
-    "main.js": "/utah-chinese-folk-orchestra-website/static/js/main.d4b6b217.js",
-    "static/js/882.a605a272.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/882.a605a272.chunk.js",
-    "static/js/676.ae0cdd2d.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/676.ae0cdd2d.chunk.js",
-    "static/js/416.9903c0ef.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/416.9903c0ef.chunk.js",
-    "static/js/538.7502cfce.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/538.7502cfce.chunk.js",
-    "static/js/566.8ac7cd68.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/566.8ac7cd68.chunk.js",
-    "static/js/614.084c75c7.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/614.084c75c7.chunk.js",
-    "static/js/545.363a01e3.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/545.363a01e3.chunk.js",
+    "main.js": "/utah-chinese-folk-orchestra-website/static/js/main.e42831ea.js",
+    "static/js/882.83366b74.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/882.83366b74.chunk.js",
+    "static/js/676.5ee30f6d.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/676.5ee30f6d.chunk.js",
+    "static/js/416.b0b066a6.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/416.b0b066a6.chunk.js",
+    "static/js/538.b35913e0.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/538.b35913e0.chunk.js",
+    "static/js/566.e5ce52c8.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/566.e5ce52c8.chunk.js",
+    "static/js/614.7244ce76.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/614.7244ce76.chunk.js",
+    "static/js/545.78ee140d.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/545.78ee140d.chunk.js",
     "index.html": "/utah-chinese-folk-orchestra-website/index.html",
     "main.37ddbf14.css.map": "/utah-chinese-folk-orchestra-website/static/css/main.37ddbf14.css.map",
-    "main.d4b6b217.js.map": "/utah-chinese-folk-orchestra-website/static/js/main.d4b6b217.js.map",
-    "882.a605a272.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/882.a605a272.chunk.js.map",
-    "676.ae0cdd2d.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/676.ae0cdd2d.chunk.js.map",
-    "416.9903c0ef.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/416.9903c0ef.chunk.js.map",
-    "538.7502cfce.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/538.7502cfce.chunk.js.map",
-    "566.8ac7cd68.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/566.8ac7cd68.chunk.js.map",
-    "614.084c75c7.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/614.084c75c7.chunk.js.map",
-    "545.363a01e3.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/545.363a01e3.chunk.js.map"
+    "main.e42831ea.js.map": "/utah-chinese-folk-orchestra-website/static/js/main.e42831ea.js.map",
+    "882.83366b74.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/882.83366b74.chunk.js.map",
+    "676.5ee30f6d.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/676.5ee30f6d.chunk.js.map",
+    "416.b0b066a6.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/416.b0b066a6.chunk.js.map",
+    "538.b35913e0.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/538.b35913e0.chunk.js.map",
+    "566.e5ce52c8.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/566.e5ce52c8.chunk.js.map",
+    "614.7244ce76.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/614.7244ce76.chunk.js.map",
+    "545.78ee140d.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/545.78ee140d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37ddbf14.css",
-    "static/js/main.d4b6b217.js"
+    "static/js/main.e42831ea.js"
   ]
 }
