@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/utah-chinese-folk-orchestra-website/static/css/main.37ddbf14.css",
-    "main.js": "/utah-chinese-folk-orchestra-website/static/js/main.e42831ea.js",
+    "main.js": "/utah-chinese-folk-orchestra-website/static/js/main.31786043.js",
     "static/js/882.83366b74.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/882.83366b74.chunk.js",
     "static/js/676.5ee30f6d.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/676.5ee30f6d.chunk.js",
     "static/js/416.b0b066a6.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/416.b0b066a6.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/545.78ee140d.chunk.js": "/utah-chinese-folk-orchestra-website/static/js/545.78ee140d.chunk.js",
     "index.html": "/utah-chinese-folk-orchestra-website/index.html",
     "main.37ddbf14.css.map": "/utah-chinese-folk-orchestra-website/static/css/main.37ddbf14.css.map",
-    "main.e42831ea.js.map": "/utah-chinese-folk-orchestra-website/static/js/main.e42831ea.js.map",
+    "main.31786043.js.map": "/utah-chinese-folk-orchestra-website/static/js/main.31786043.js.map",
     "882.83366b74.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/882.83366b74.chunk.js.map",
     "676.5ee30f6d.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/676.5ee30f6d.chunk.js.map",
     "416.b0b066a6.chunk.js.map": "/utah-chinese-folk-orchestra-website/static/js/416.b0b066a6.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.37ddbf14.css",
-    "static/js/main.e42831ea.js"
+    "static/js/main.31786043.js"
   ]
 }
