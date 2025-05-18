@@ -1,11 +1,10 @@
 {
+  "orchestra-name":"Utah Chinese Folk Orchestra",
   "About": "About",
-  "Policy": "Policy",
+  "organizer":"Chairman: Zhengming Wang \n Vice Chairman: Terrence Chen \n Conductor: Sheng Ding",
   "Mission": "Mission",
-  "Product": "Product",
-  "Tell us everything": "Tell us everything",
-  "Contact": "Contact",
-  "Do you have any question? Feel free to reach out.": "Do you have any question? Feel free to reach out.",
+  "Contact": "Contact us",
+  "rehearsal location": "The Orchestra practices every Saturday morning, 10:00 am – 12:00 noon at 1470 Highland Cove Ln, Millcreek, UT",
   "Let's Chat": "Let's Chat",
   "Application Security": "Application Security",
   "Software Principles": "Software Principles",
@@ -13,7 +12,7 @@
   "Customer Support": "Customer Support",
   "Address": "Address",
   "Press": "Press",
-  "Careers & Culture": "Careers & Culture",
+  "join-info": "Join our orchestra and be part of a vibrant musical community where East meets West. Whether you play a Chinese instrument like the erhu or pipa, or a Western one like the violin or flute, your talent is welcome here. All levels are encouraged—come share your passion and grow with us!",
   "Language": "Language",
   "Explore": "Explore",
   "Learn more": "Learn more",
@@ -24,5 +23,7 @@
   "Name" : "Name",
   "Your Name": "Your Name",
   "Email" : "Email",
-  "Your Email": "Your Email"
+  "Your Email": "Your Email",
+  "mission":"Utah Chinese Folk Orchestra was established in 2005. It is a 501(c)(3) non-profit organization. Members are volunteers who love Chinese music, can play some musical instrument (Western or Chinese). Its mission is to promote culture diversity and Chinese Culture through music.",
+  "join-title": "Join orchestra"
 }

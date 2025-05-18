@@ -1,13 +1,11 @@
 import { lazy } from "react";
-import IntroContent from "../../content/IntroContent.json";
+import Organizer from "../../content/Organizer.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../../content/ContactContent.json";
+import Rehearsal from "../../content/Rehearsal.json";
+import Join from "../../content/Join.json";
 
-const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const ContactBlock = lazy(() => import("../../components/ContactBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -16,7 +14,12 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-      <ContentBlock
+      <MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}
+      />
+      {/* <ContentBlock
         direction="right"
         title={IntroContent.title}
         content={IntroContent.text}
@@ -36,25 +39,32 @@ const Home = () => {
         section={AboutContent.section}
         icon="graphs.svg"
         id="about"
-      />
+      /> */}
       <ContentBlock
         direction="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
+        title={Organizer.title}
+        content={Organizer.text}
+        icon="mission.png"
         id="mission"
       />
       <ContentBlock
         direction="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
+        title={Join.title}
+        content={Join.text}
+        button={Join.button}
+        icon="mission.png"
+        id="mission"
+      />
+      <ContentBlock
+        direction="right"
+        title={Rehearsal.title}
+        content={Rehearsal.text}
+        icon="rehearsal.jpg"
         id="product"
       />
-      <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
+      <ContactBlock
         id="contact"
+        direction="right"
       />
     </Container>
   );

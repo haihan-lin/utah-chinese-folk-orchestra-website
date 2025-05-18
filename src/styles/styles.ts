@@ -4,16 +4,15 @@ export const Styles = createGlobalStyle`
 
     @font-face {
         font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        src: url("fonts/Motiva-Sans-Light.ttf") format("truetype");
         font-style: normal;
     }
 
     @font-face {
         font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        src: url("fonts/Motiva-Sans-Bold.ttf") format("truetype");
         font-style: normal;
     }
-
 
     body,
     html,
@@ -29,6 +28,8 @@ export const Styles = createGlobalStyle`
         outline: 0;
         background: #fff;
         overflow-x: hidden;
+        white-space: pre-line;
+
     }
 
     a:hover {
@@ -40,9 +41,9 @@ export const Styles = createGlobalStyle`
         border-radius: 4px;
         border: 0;
         background: rgb(241, 242, 243);
-        transition: all 0.3s ease-in-out;  
+        transition: all 0.3s ease-in-out;
         outline: none;
-        width: 100%;  
+        width: 100%;
         padding: 1rem 1.25rem;
 
         :focus-within {
@@ -65,7 +66,7 @@ export const Styles = createGlobalStyle`
         @media only screen and (max-width: 890px) {
           font-size: 47px;
         }
-      
+
         @media only screen and (max-width: 414px) {
           font-size: 32px;
         }
@@ -73,7 +74,7 @@ export const Styles = createGlobalStyle`
 
     p {
         color: #18216d;
-        font-size: 21px;        
+        font-size: 21px;
         line-height: 1.41;
     }
 
@@ -90,7 +91,7 @@ export const Styles = createGlobalStyle`
             color: #2e186a;
         }
     }
-    
+
     *:focus {
         outline: none;
     }

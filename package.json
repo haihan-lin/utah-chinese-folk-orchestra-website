@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "utah-chinese-folk-orchestra-website",
   "version": "0.1.0",
+   "homepage": "https://haihan-lin.github.io/utah-chinese-folk-orchestra-website",
   "private": true,
   "dependencies": {
     "@types/node": "^15.14.9",
@@ -22,6 +23,8 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

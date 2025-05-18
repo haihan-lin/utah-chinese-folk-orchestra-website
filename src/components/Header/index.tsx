@@ -15,8 +15,9 @@ import {
   Outline,
   Span,
 } from "./styles";
+import { LanguageSelector } from "../LanguageSelector";
 
-const Header = ({ t }: { t: TFunction }) => {
+const Header = ({ t }: { t: TFunction; }) => {
   const [visible, setVisibility] = useState(false);
 
   const toggleButton = () => {
@@ -33,14 +34,11 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+        <CustomNavLinkSmall
+        >
+          <Label>Language</Label>
+          <LanguageSelector />
+
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}

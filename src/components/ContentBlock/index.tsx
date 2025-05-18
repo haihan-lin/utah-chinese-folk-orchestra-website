@@ -9,9 +9,6 @@ import {
   ContentSection,
   Content,
   ContentWrapper,
-  ServiceWrapper,
-  MinTitle,
-  MinPara,
   StyledRow,
   ButtonWrapper,
 } from "./styles";
@@ -49,58 +46,28 @@ const ContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
-              {direction === "right" ? (
-                <ButtonWrapper>
-                  {typeof button === "object" &&
-                    button.map(
-                      (
-                        item: {
-                          color?: string;
-                          title: string;
-                        },
-                        id: number
-                      ) => {
-                        return (
-                          <Button
-                            key={id}
-                            color={item.color}
-                            onClick={() => scrollTo("about")}
-                          >
-                            {t(item.title)}
-                          </Button>
-                        );
-                      }
-                    )}
-                </ButtonWrapper>
-              ) : (
-                <ServiceWrapper>
-                  <Row justify="space-between">
-                    {typeof section === "object" &&
-                      section.map(
-                        (
-                          item: {
-                            title: string;
-                            content: string;
-                            icon: string;
-                          },
-                          id: number
-                        ) => {
-                          return (
-                            <Col key={id} span={11}>
-                              <SvgIcon
-                                src={item.icon}
-                                width="60px"
-                                height="60px"
-                              />
-                              <MinTitle>{t(item.title)}</MinTitle>
-                              <MinPara>{t(item.content)}</MinPara>
-                            </Col>
-                          );
-                        }
-                      )}
-                  </Row>
-                </ServiceWrapper>
-              )}
+              <ButtonWrapper>
+                {typeof button === "object" &&
+                  button.map(
+                    (
+                      item: {
+                        color?: string;
+                        title: string;
+                      },
+                      id: number
+                    ) => {
+                      return (
+                        <Button
+                          key={id}
+                          color={item.color}
+                          onClick={() => scrollTo("contact")}
+                        >
+                          {t(item.title)}
+                        </Button>
+                      );
+                    }
+                  )}
+              </ButtonWrapper>
             </ContentWrapper>
           </Col>
         </StyledRow>
