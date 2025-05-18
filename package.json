@@ -1,7 +1,7 @@
 {
   "name": "utah-chinese-folk-orchestra-website",
   "version": "0.1.0",
-   "homepage": "https://haihan-lin.github.io/utah-chinese-folk-orchestra-website",
+   "homepage": "https://utahchinesefolkorchestra.org",
   "private": true,
   "dependencies": {
     "@types/node": "^15.14.9",
