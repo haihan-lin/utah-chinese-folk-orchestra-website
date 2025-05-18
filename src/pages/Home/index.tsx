@@ -44,7 +44,7 @@ const Home = () => {
         direction="right"
         title={Organizer.title}
         content={Organizer.text}
-        icon="mission.png"
+        icon="mission.jpg"
         id="mission"
       />
       <ContentBlock
@@ -52,8 +52,8 @@ const Home = () => {
         title={Join.title}
         content={Join.text}
         button={Join.button}
-        icon="mission.png"
-        id="mission"
+        icon="join.png"
+        id="join"
       />
       <ContentBlock
         direction="right"

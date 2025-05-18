@@ -1,7 +1,7 @@
 {
-  "name": "utah-chinese-folk-orchestra-website",
+  "name": "ucfo",
   "version": "0.1.0",
-   "homepage": "https://utahchinesefolkorchestra.org",
+  "homepage": "https://utahchinesefolkorchestra.org/",
   "private": true,
   "dependencies": {
     "@types/node": "^15.14.9",
